@@ -2,394 +2,220 @@
   "GDS-Tokens": {
     "govuk": {
       "colour": {
-        "red": {
-          "$value": "#d4351c",
-          "$type": "color",
-          "$description": "GOV.UK Red"
-        },
-        "yellow": {
-          "$value": "#ffdd00",
-          "$type": "color",
-          "$description": "GOV.UK Yellow (Focus state)"
-        },
-        "green": {
-          "$value": "#00703f",
-          "$type": "color",
-          "$description": "GOV.UK Green"
-        },
-        "blue": {
-          "$value": "#1d70b8",
-          "$type": "color",
-          "$description": "GOV.UK Blue (Default links)"
-        },
-        "dark-blue": {
-          "$value": "#003078",
-          "$type": "color",
-          "$description": "GOV.UK Dark Blue (Hover links)"
-        },
-        "light-blue": {
-          "$value": "#2b8cc4",
-          "$type": "color",
-          "$description": "GOV.UK Light Blue"
-        },
-        "purple": {
-          "$value": "#4c2c92",
-          "$type": "color",
-          "$description": "GOV.UK Purple (Visited links)"
-        },
-        "black": {
-          "$value": "#0b0c0c",
-          "$type": "color",
-          "$description": "GOV.UK Black (Primary text)"
-        },
-        "dark-grey": {
-          "$value": "#505a5f",
-          "$type": "color",
-          "$description": "GOV.UK Dark Grey (Secondary text)"
-        },
-        "mid-grey": {
-          "$value": "#b1b4b6",
-          "$type": "color",
-          "$description": "GOV.UK Mid Grey (Borders)"
-        },
-        "light-grey": {
-          "$value": "#f3f2f1",
-          "$type": "color",
-          "$description": "GOV.UK Light Grey (Panel background)"
-        },
-        "white": {
-          "$value": "#ffffff",
-          "$type": "color",
-          "$description": "GOV.UK White"
-        },
-        "light-purple": {
-          "$value": "#6f72af",
-          "$type": "color",
-          "$description": ""
-        },
-        "bright-purple": {
-          "$value": "#912b88",
-          "$type": "color",
-          "$description": ""
-        },
-        "pink": {
-          "$value": "#d53880",
-          "$type": "color",
-          "$description": ""
-        },
-        "light-pink": {
-          "$value": "#f499be",
-          "$type": "color",
-          "$description": ""
-        },
-        "orange": {
-          "$value": "#f47738",
-          "$type": "color",
-          "$description": ""
-        },
-        "brown": {
-          "$value": "#b58840",
-          "$type": "color",
-          "$description": ""
-        },
-        "light-green": {
-          "$value": "#85994b",
-          "$type": "color",
-          "$description": ""
-        },
-        "turquoise": {
-          "$value": "#28a197",
-          "$type": "color",
-          "$description": ""
-        }
+        "red": { "$value": "#d4351c", "$type": "color", "$description": "GOV.UK Red" },
+        "yellow": { "$value": "#ffdd00", "$type": "color", "$description": "GOV.UK Yellow (Focus state)" },
+        "green": { "$value": "#00703f", "$type": "color", "$description": "GOV.UK Green" },
+        "blue": { "$value": "#1d70b8", "$type": "color", "$description": "GOV.UK Blue (Default links)" },
+        "dark-blue": { "$value": "#003078", "$type": "color", "$description": "GOV.UK Dark Blue (Hover links)" },
+        "light-blue": { "$value": "#2b8cc4", "$type": "color", "$description": "GOV.UK Light Blue" },
+        "purple": { "$value": "#4c2c92", "$type": "color", "$description": "GOV.UK Purple (Visited links)" },
+        "black": { "$value": "#0b0c0c", "$type": "color", "$description": "GOV.UK Black (Primary text)" },
+        "dark-grey": { "$value": "#505a5f", "$type": "color", "$description": "GOV.UK Dark Grey (Secondary text)" },
+        "mid-grey": { "$value": "#b1b4b6", "$type": "color", "$description": "GOV.UK Mid Grey (Borders)" },
+        "light-grey": { "$value": "#f3f2f1", "$type": "color", "$description": "GOV.UK Light Grey (Panel background)" },
+        "white": { "$value": "#ffffff", "$type": "color", "$description": "GOV.UK White" },
+        "light-purple": { "$value": "#6f72af", "$type": "color", "$description": "" },
+        "bright-purple": { "$value": "#912b88", "$type": "color", "$description": "" },
+        "pink": { "$value": "#d53880", "$type": "color", "$description": "" },
+        "light-pink": { "$value": "#f499be", "$type": "color", "$description": "" },
+        "orange": { "$value": "#f47738", "$type": "color", "$description": "" },
+        "brown": { "$value": "#b58840", "$type": "color", "$description": "" },
+        "light-green": { "$value": "#85994b", "$type": "color", "$description": "" },
+        "turquoise": { "$value": "#28a197", "$type": "color", "$description": "" }
       },
       "semantic": {
         "text": {
-          "primary": {
-            "$value": "{govuk.colour.black}",
-            "$type": "color",
-            "$description": ""
-          },
-          "secondary": {
-            "$value": "{govuk.colour.dark-grey}",
-            "$type": "color",
-            "$description": ""
-          },
-          "inverse": {
-            "$value": "{govuk.colour.white}",
-            "$type": "color",
-            "$description": ""
-          },
-          "error": {
-            "$value": "{govuk.colour.red}",
-            "$type": "color",
-            "$description": ""
-          }
+          "primary": { "$value": "{govuk.colour.black}", "$type": "color", "$description": "" },
+          "secondary": { "$value": "{govuk.colour.dark-grey}", "$type": "color", "$description": "" },
+          "inverse": { "$value": "{govuk.colour.white}", "$type": "color", "$description": "" },
+          "error": { "$value": "{govuk.colour.red}", "$type": "color", "$description": "" }
         },
         "link": {
-          "default": {
-            "$value": "{govuk.colour.blue}",
-            "$type": "color",
-            "$description": ""
-          },
-          "hover": {
-            "$value": "{govuk.colour.dark-blue}",
-            "$type": "color",
-            "$description": ""
-          },
-          "visited": {
-            "$value": "{govuk.colour.purple}",
-            "$type": "color",
-            "$description": ""
-          },
-          "inverse": {
-            "$value": "{govuk.colour.white}",
-            "$type": "color",
-            "$description": ""
-          }
+          "default": { "$value": "{govuk.colour.blue}", "$type": "color", "$description": "" },
+          "hover": { "$value": "{govuk.colour.dark-blue}", "$type": "color", "$description": "" },
+          "visited": { "$value": "{govuk.colour.purple}", "$type": "color", "$description": "" },
+          "inverse": { "$value": "{govuk.colour.white}", "$type": "color", "$description": "" }
         },
         "border": {
-          "default": {
-            "$value": "{govuk.colour.mid-grey}",
-            "$type": "color",
-            "$description": ""
-          },
-          "focus": {
-            "$value": "{govuk.colour.black}",
-            "$type": "color",
-            "$description": ""
-          },
-          "error": {
-            "$value": "{govuk.colour.red}",
-            "$type": "color",
-            "$description": ""
-          }
+          "default": { "$value": "{govuk.colour.mid-grey}", "$type": "color", "$description": "" },
+          "focus": { "$value": "{govuk.colour.black}", "$type": "color", "$description": "" },
+          "error": { "$value": "{govuk.colour.red}", "$type": "color", "$description": "" }
         },
         "background": {
-          "default": {
-            "$value": "{govuk.colour.white}",
-            "$type": "color",
-            "$description": ""
-          },
-          "inverse": {
-            "$value": "{govuk.colour.black}",
-            "$type": "color",
-            "$description": ""
-          },
-          "panel": {
-            "$value": "{govuk.colour.light-grey}",
-            "$type": "color",
-            "$description": ""
-          },
-          "button": {
-            "$value": "{govuk.colour.green}",
-            "$type": "color",
-            "$description": ""
-          },
-          "button-hover": {
-            "$value": "#005a30",
-            "$type": "color",
-            "$description": ""
-          }
+          "default": { "$value": "{govuk.colour.white}", "$type": "color", "$description": "" },
+          "inverse": { "$value": "{govuk.colour.black}", "$type": "color", "$description": "" },
+          "panel": { "$value": "{govuk.colour.light-grey}", "$type": "color", "$description": "" },
+          "button": { "$value": "{govuk.colour.green}", "$type": "color", "$description": "" },
+          "button-hover": { "$value": "#005a30", "$type": "color", "$description": "" }
         },
         "focus": {
-          "background": {
-            "$value": "{govuk.colour.yellow}",
-            "$type": "color",
-            "$description": ""
-          },
-          "text": {
-            "$value": "{govuk.colour.black}",
-            "$type": "color",
-            "$description": ""
-          }
+          "background": { "$value": "{govuk.colour.yellow}", "$type": "color", "$description": "" },
+          "text": { "$value": "{govuk.colour.black}", "$type": "color", "$description": "" }
         }
       },
       "spacing": {
-        "0": {
-          "$value": "0px",
-          "$type": "dimension",
-          "$description": ""
-        },
-        "1": {
-          "$value": "5px",
-          "$type": "dimension",
-          "$description": ""
-        },
-        "2": {
-          "$value": "10px",
-          "$type": "dimension",
-          "$description": ""
-        },
-        "3": {
-          "$value": "15px",
-          "$type": "dimension",
-          "$description": ""
-        },
-        "4": {
-          "$value": "20px",
-          "$type": "dimension",
-          "$description": ""
-        },
-        "5": {
-          "$value": "25px",
-          "$type": "dimension",
-          "$description": ""
-        },
-        "6": {
-          "$value": "30px",
-          "$type": "dimension",
-          "$description": ""
-        },
-        "7": {
-          "$value": "40px",
-          "$type": "dimension",
-          "$description": ""
-        },
-        "8": {
-          "$value": "50px",
-          "$type": "dimension",
-          "$description": ""
-        },
-        "9": {
-          "$value": "60px",
-          "$type": "dimension",
-          "$description": ""
-        }
+        "0": { "$value": "0px", "$type": "spacing", "$description": "" },
+        "1": { "$value": "5px", "$type": "spacing", "$description": "" },
+        "2": { "$value": "10px", "$type": "spacing", "$description": "" },
+        "3": { "$value": "15px", "$type": "spacing", "$description": "" },
+        "4": { "$value": "20px", "$type": "spacing", "$description": "" },
+        "5": { "$value": "25px", "$type": "spacing", "$description": "" },
+        "6": { "$value": "30px", "$type": "spacing", "$description": "" },
+        "7": { "$value": "40px", "$type": "spacing", "$description": "" },
+        "8": { "$value": "50px", "$type": "spacing", "$description": "" },
+        "9": { "$value": "60px", "$type": "spacing", "$description": "" }
       },
       "typography": {
         "family": {
           "primary": {
-            "$value": [
-              "\"GDS Transport\"",
-              "arial",
-              "sans-serif"
-            ],
+            "$value": ["\"GDS Transport\"", "arial", "sans-serif"],
             "$type": "fontFamilies",
             "$description": "GOV.UK Primary Font"
           }
         },
         "weight": {
-          "regular": {
-            "$value": 400,
-            "$type": "fontWeights",
-            "$description": "Regular"
-          },
-          "bold": {
-            "$value": 700,
-            "$type": "fontWeights",
-            "$description": "Bold"
-          }
+          "regular": { "$value": 400, "$type": "fontWeights", "$description": "Regular" },
+          "bold": { "$value": 700, "$type": "fontWeights", "$description": "Bold" }
         },
         "size": {
-          "14": {
-            "$value": "14px",
-            "$type": "dimension",
-            "$description": ""
-          },
-          "16": {
-            "$value": "16px",
-            "$type": "dimension",
-            "$description": ""
-          },
-          "19": {
-            "$value": "19px",
-            "$type": "dimension",
-            "$description": "Standard body text"
-          },
-          "24": {
-            "$value": "24px",
-            "$type": "dimension",
-            "$description": "Heading S"
-          },
-          "27": {
-            "$value": "27px",
-            "$type": "dimension",
-            "$description": "Heading M"
-          },
-          "36": {
-            "$value": "36px",
-            "$type": "dimension",
-            "$description": "Heading L"
-          },
-          "48": {
-            "$value": "48px",
-            "$type": "dimension",
-            "$description": "Heading XL"
-          },
-          "53": {
-            "$value": "53px",
-            "$type": "dimension",
-            "$description": ""
-          },
-          "80": {
-            "$value": "80px",
-            "$type": "dimension",
-            "$description": ""
-          }
+          "14": { "$value": "14px", "$type": "fontSizes", "$description": "" },
+          "16": { "$value": "16px", "$type": "fontSizes", "$description": "" },
+          "19": { "$value": "19px", "$type": "fontSizes", "$description": "Standard body text" },
+          "24": { "$value": "24px", "$type": "fontSizes", "$description": "Heading S" },
+          "27": { "$value": "27px", "$type": "fontSizes", "$description": "Heading M" },
+          "36": { "$value": "36px", "$type": "fontSizes", "$description": "Heading L" },
+          "48": { "$value": "48px", "$type": "fontSizes", "$description": "Heading XL" },
+          "53": { "$value": "53px", "$type": "fontSizes", "$description": "" },
+          "80": { "$value": "80px", "$type": "fontSizes", "$description": "" }
         },
         "line-height": {
-          "1-1": {
-            "$value": 1.11111,
-            "$type": "number",
-            "$description": ""
+          "1-1": { "$value": 1.11111, "$type": "number", "$description": "" },
+          "1-2": { "$value": 1.2, "$type": "number", "$description": "" },
+          "1-25": { "$value": 1.25, "$type": "number", "$description": "" },
+          "1-3": { "$value": 1.31578, "$type": "number", "$description": "" }
+        },
+        "style": {
+          "heading-xl": {
+            "$type": "typography",
+            "$description": "Use for main page headings (H1)",
+            "$value": {
+              "fontFamilies": ["{govuk.typography.family.primary}"],
+              "fontWeights": "{govuk.typography.weight.bold}",
+              "fontSizes": "{govuk.typography.size.48}",
+              "lineHeights": "{govuk.typography.line-height.1-1}"
+            }
           },
-          "1-2": {
-            "$value": 1.2,
-            "$type": "number",
-            "$description": ""
+          "heading-l": {
+            "$type": "typography",
+            "$description": "Use for section headings (H2)",
+            "$value": {
+              "fontFamilies": ["{govuk.typography.family.primary}"],
+              "fontWeights": "{govuk.typography.weight.bold}",
+              "fontSizes": "{govuk.typography.size.36}",
+              "lineHeights": "{govuk.typography.line-height.1-2}"
+            }
           },
-          "1-25": {
-            "$value": 1.25,
-            "$type": "number",
-            "$description": ""
+          "heading-m": {
+            "$type": "typography",
+            "$description": "Use for sub-section headings (H3)",
+            "$value": {
+              "fontFamilies": ["{govuk.typography.family.primary}"],
+              "fontWeights": "{govuk.typography.weight.bold}",
+              "fontSizes": "{govuk.typography.size.24}",
+              "lineHeights": "{govuk.typography.line-height.1-25}"
+            }
           },
-          "1-3": {
-            "$value": 1.31578,
-            "$type": "number",
-            "$description": ""
+          "heading-s": {
+            "$type": "typography",
+            "$description": "Use for minor headings (H4)",
+            "$value": {
+              "fontFamilies": ["{govuk.typography.family.primary}"],
+              "fontWeights": "{govuk.typography.weight.bold}",
+              "fontSizes": "{govuk.typography.size.19}",
+              "lineHeights": "{govuk.typography.line-height.1-25}"
+            }
+          },
+          "body": {
+            "$type": "typography",
+            "$description": "Standard body text layout",
+            "$value": {
+              "fontFamilies": ["{govuk.typography.family.primary}"],
+              "fontWeights": "{govuk.typography.weight.regular}",
+              "fontSizes": "{govuk.typography.size.19}",
+              "lineHeights": "{govuk.typography.line-height.1-3}"
+            }
+          },
+          "body-small": {
+            "$type": "typography",
+            "$description": "Small body text (e.g., footers, metadata)",
+            "$value": {
+              "fontFamilies": ["{govuk.typography.family.primary}"],
+              "fontWeights": "{govuk.typography.weight.regular}",
+              "fontSizes": "{govuk.typography.size.16}",
+              "lineHeights": "{govuk.typography.line-height.1-25}"
+            }
           }
         }
       },
       "border": {
         "width": {
-          "narrow": {
-            "$value": "1px",
-            "$type": "dimension",
-            "$description": ""
-          },
-          "standard": {
-            "$value": "2px",
-            "$type": "dimension",
-            "$description": ""
-          },
-          "focus": {
-            "$value": "3px",
-            "$type": "dimension",
-            "$description": "Used with yellow background for focus states"
-          },
-          "thick": {
-            "$value": "4px",
-            "$type": "dimension",
-            "$description": "Used on left border of inset text"
-          },
-          "error": {
-            "$value": "5px",
-            "$type": "dimension",
-            "$description": "Used on left border of error summaries"
-          }
+          "narrow": { "$value": "1px", "$type": "borderWidth", "$description": "" },
+          "standard": { "$value": "2px", "$type": "borderWidth", "$description": "" },
+          "focus": { "$value": "3px", "$type": "borderWidth", "$description": "Used with yellow background for focus states" },
+          "thick": { "$value": "4px", "$type": "borderWidth", "$description": "Used on left border of inset text" },
+          "error": { "$value": "5px", "$type": "borderWidth", "$description": "Used on left border of error summaries" }
+        }
+      },
+      "shadow": {
+        "button": {
+          "$type": "shadow",
+          "$description": "Standard solid drop shadow for GDS buttons",
+          "$value": [
+            {
+              "offsetX": "0",
+              "offsetY": "3",
+              "blur": "0",
+              "spread": "0",
+              "color": "#002d18",
+              "inset": false
+            }
+          ]
+        },
+        "focus-ring-yellow": {
+          "$type": "shadow",
+          "$description": "Standard yellow focus ring spread",
+          "$value": [
+            {
+              "offsetX": "0",
+              "offsetY": "0",
+              "blur": "0",
+              "spread": "3",
+              "color": "{govuk.colour.yellow}",
+              "inset": false
+            }
+          ]
+        },
+        "focus-ring-black": {
+          "$type": "shadow",
+          "$description": "Outer black border for high-contrast focus states",
+          "$value": [
+            {
+              "offsetX": "0",
+              "offsetY": "0",
+              "blur": "0",
+              "spread": "5",
+              "color": "{govuk.colour.black}",
+              "inset": false
+            }
+          ]
         }
       }
     }
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": [
-      "GDS-Tokens"
-    ],
+    "tokenSetOrder": ["GDS-Tokens"],
     "activeThemes": [],
-    "activeSets": [
-      "GDS-Tokens"
-    ]
+    "activeSets": ["GDS-Tokens"]
   }
 }
