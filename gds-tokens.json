@@ -1,0 +1,103 @@
+{
+  "govuk": {
+    "colour": {
+      "red": { "$type": "color", "$value": "#d4351c", "$description": "GOV.UK Red" },
+      "yellow": { "$type": "color", "$value": "#ffdd00", "$description": "GOV.UK Yellow (Focus state)" },
+      "green": { "$type": "color", "$value": "#00703f", "$description": "GOV.UK Green" },
+      "blue": { "$type": "color", "$value": "#1d70b8", "$description": "GOV.UK Blue (Default links)" },
+      "dark-blue": { "$type": "color", "$value": "#003078", "$description": "GOV.UK Dark Blue (Hover links)" },
+      "light-blue": { "$type": "color", "$value": "#2b8cc4", "$description": "GOV.UK Light Blue" },
+      "purple": { "$type": "color", "$value": "#4c2c92", "$description": "GOV.UK Purple (Visited links)" },
+      "black": { "$type": "color", "$value": "#0b0c0c", "$description": "GOV.UK Black (Primary text)" },
+      "dark-grey": { "$type": "color", "$value": "#505a5f", "$description": "GOV.UK Dark Grey (Secondary text)" },
+      "mid-grey": { "$type": "color", "$value": "#b1b4b6", "$description": "GOV.UK Mid Grey (Borders)" },
+      "light-grey": { "$type": "color", "$value": "#f3f2f1", "$description": "GOV.UK Light Grey (Panel background)" },
+      "white": { "$type": "color", "$value": "#ffffff", "$description": "GOV.UK White" },
+      "light-purple": { "$type": "color", "$value": "#6f72af" },
+      "bright-purple": { "$type": "color", "$value": "#912b88" },
+      "pink": { "$type": "color", "$value": "#d53880" },
+      "light-pink": { "$type": "color", "$value": "#f499be" },
+      "orange": { "$type": "color", "$value": "#f47738" },
+      "brown": { "$type": "color", "$value": "#b58840" },
+      "light-green": { "$type": "color", "$value": "#85994b" },
+      "turquoise": { "$type": "color", "$value": "#28a197" }
+    },
+    "semantic": {
+      "text": {
+        "primary": { "$type": "color", "$value": "{govuk.colour.black}" },
+        "secondary": { "$type": "color", "$value": "{govuk.colour.dark-grey}" },
+        "inverse": { "$type": "color", "$value": "{govuk.colour.white}" },
+        "error": { "$type": "color", "$value": "{govuk.colour.red}" }
+      },
+      "link": {
+        "default": { "$type": "color", "$value": "{govuk.colour.blue}" },
+        "hover": { "$type": "color", "$value": "{govuk.colour.dark-blue}" },
+        "visited": { "$type": "color", "$value": "{govuk.colour.purple}" },
+        "inverse": { "$type": "color", "$value": "{govuk.colour.white}" }
+      },
+      "border": {
+        "default": { "$type": "color", "$value": "{govuk.colour.mid-grey}" },
+        "focus": { "$type": "color", "$value": "{govuk.colour.black}" },
+        "error": { "$type": "color", "$value": "{govuk.colour.red}" }
+      },
+      "background": {
+        "default": { "$type": "color", "$value": "{govuk.colour.white}" },
+        "inverse": { "$type": "color", "$value": "{govuk.colour.black}" },
+        "panel": { "$type": "color", "$value": "{govuk.colour.light-grey}" },
+        "button": { "$type": "color", "$value": "{govuk.colour.green}" },
+        "button-hover": { "$type": "color", "$value": "#005a30" }
+      },
+      "focus": {
+        "background": { "$type": "color", "$value": "{govuk.colour.yellow}" },
+        "text": { "$type": "color", "$value": "{govuk.colour.black}" }
+      }
+    },
+    "spacing": {
+      "0": { "$type": "dimension", "$value": "0px" },
+      "1": { "$type": "dimension", "$value": "5px" },
+      "2": { "$type": "dimension", "$value": "10px" },
+      "3": { "$type": "dimension", "$value": "15px" },
+      "4": { "$type": "dimension", "$value": "20px" },
+      "5": { "$type": "dimension", "$value": "25px" },
+      "6": { "$type": "dimension", "$value": "30px" },
+      "7": { "$type": "dimension", "$value": "40px" },
+      "8": { "$type": "dimension", "$value": "50px" },
+      "9": { "$type": "dimension", "$value": "60px" }
+    },
+    "typography": {
+      "family": {
+        "primary": { "$type": "fontFamily", "$value": "\"GDS Transport\", arial, sans-serif" }
+      },
+      "weight": {
+        "regular": { "$type": "fontWeight", "$value": 400 },
+        "bold": { "$type": "fontWeight", "$value": 700 }
+      },
+      "size": {
+        "14": { "$type": "dimension", "$value": "14px" },
+        "16": { "$type": "dimension", "$value": "16px" },
+        "19": { "$type": "dimension", "$value": "19px", "$description": "Standard body text" },
+        "24": { "$type": "dimension", "$value": "24px", "$description": "Heading S" },
+        "27": { "$type": "dimension", "$value": "27px", "$description": "Heading M" },
+        "36": { "$type": "dimension", "$value": "36px", "$description": "Heading L" },
+        "48": { "$type": "dimension", "$value": "48px", "$description": "Heading XL" },
+        "53": { "$type": "dimension", "$value": "53px" },
+        "80": { "$type": "dimension", "$value": "80px" }
+      },
+      "line-height": {
+        "1-1": { "$type": "number", "$value": 1.11111 },
+        "1-2": { "$type": "number", "$value": 1.2 },
+        "1-25": { "$type": "number", "$value": 1.25 },
+        "1-3": { "$type": "number", "$value": 1.31578 }
+      }
+    },
+    "border": {
+      "width": {
+        "narrow": { "$type": "dimension", "$value": "1px" },
+        "standard": { "$type": "dimension", "$value": "2px" },
+        "focus": { "$type": "dimension", "$value": "3px", "$description": "Used with yellow background for focus states" },
+        "thick": { "$type": "dimension", "$value": "4px", "$description": "Used on left border of inset text" },
+        "error": { "$type": "dimension", "$value": "5px", "$description": "Used on left border of error summaries" }
+      }
+    }
+  }
+}
