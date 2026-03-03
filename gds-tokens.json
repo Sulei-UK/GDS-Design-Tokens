@@ -212,9 +212,84 @@
       }
     }
   },
+  "sub/mojTheme": {
+    "govuk": {
+      "colour": {
+        "blue": { "$value": "#005ea5", "$type": "color", "$description": "Legacy GDS Blue often used in MoJ" }
+      }
+    },
+    "moj": {
+      "colour": {
+        "brand-green": { "$value": "#00823b", "$type": "color", "$description": "MoJ Internal Green" },
+        "header-background": { "$value": "#0b0c0c", "$type": "color", "$description": "MoJ Header Dark" }
+      },
+      "semantic": {
+        "sub-navigation": { "$value": "#f3f2f1", "$type": "color", "$description": "MoJ Subnav background" }
+      }
+    }
+  },
+  "sub/moneyhelperTheme": {
+    "govuk": {
+      "colour": {
+        "pink": { "$value": "#C82A87", "$type": "color", "$description": "MoneyHelper Primary Brand" },
+        "blue": { "$value": "#0F19A0", "$type": "color", "$description": "MoneyHelper Dark Blue" },
+        "light-blue": { "$value": "#00A8E1", "$type": "color", "$description": "MoneyHelper Light Blue" }
+      },
+      "typography": {
+        "family": {
+          "primary": {
+            "$value": ["Roobert", "arial", "sans-serif"],
+            "$type": "fontFamilies",
+            "$description": "MoneyHelper Brand Font"
+          }
+        }
+      },
+      "semantic": {
+        "background": {
+          "button": { "$value": "{govuk.colour.pink}", "$type": "color", "$description": "Overrides GDS Green button with MH Pink" },
+          "button-hover": { "$value": "#a11e69", "$type": "color" }
+        },
+        "link": {
+          "default": { "$value": "{govuk.colour.pink}", "$type": "color", "$description": "MH uses pink links" },
+          "hover": { "$value": "{govuk.colour.blue}", "$type": "color" }
+        }
+      },
+      "shadow": {
+        "button": {
+          "$type": "shadow",
+          "$description": "Removes the solid 3px GDS shadow for a flat MH button",
+          "$value": [{ "offsetX": "0", "offsetY": "0", "blur": "0", "spread": "0", "color": "#000000", "inset": false }]
+        }
+      }
+    }
+  },
+  "sub/nhsTheme": {
+    "govuk": {
+      "colour": {
+        "blue": { "$value": "#005EB8", "$type": "color", "$description": "NHS Blue Override" },
+        "dark-blue": { "$value": "#003087", "$type": "color", "$description": "NHS Dark Blue" },
+        "green": { "$value": "#007F3B", "$type": "color", "$description": "NHS Green" }
+      },
+      "typography": {
+        "family": {
+          "primary": {
+            "$value": ["Frutiger", "Frutiger Linotype", "arial", "sans-serif"],
+            "$type": "fontFamilies",
+            "$description": "NHS standard font override"
+          }
+        }
+      }
+    },
+    "nhs": {
+      "colour": {
+        "pale-yellow": { "$value": "#FFF9C4", "$type": "color", "$description": "NHS specific addition" },
+        "warm-yellow": { "$value": "#FFB81C", "$type": "color", "$description": "NHS specific addition" }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": ["GDS-Tokens"],
+    "tokenSetOrder": ["GDS-Tokens", "sub/mojTheme", "sub/moneyhelperTheme", "sub/nhsTheme"],
     "activeThemes": [],
     "activeSets": ["GDS-Tokens"]
   }
